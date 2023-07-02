@@ -28,6 +28,7 @@ body{
 
 .buttons{
     margin-top: 20px;
+
 }
 
 .btn{
@@ -40,4 +41,18 @@ body{
     margin-inline: 12px;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: 600;
+}
+
+#stopBtn:hover{
+    background-color: rgb(246, 87, 87);
+    
+}
+
+#startBtn:hover{
+    background-color: rgb(87, 246, 114);
+}
+
+#resetBtn:hover{
+    background-color: rgb(87, 95, 246);
 }
